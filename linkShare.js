@@ -4,6 +4,11 @@
   var shorthost = "";
 
   switch(hostname) {
+    case "www.amazon.com":
+      identifier = window.location.pathname.split("/")[3];
+      pathname = "/dp/";
+      shorthost = "amazon.com"
+      break;
     case "www.ebay.com":
       identifier = window.location.pathname.split("/")[3];
       pathname = "/itm/";
@@ -14,6 +19,7 @@
       identifier = urlParams.get('v');
       pathname = "/"
       shorthost = "youtu.be";
+      break;
   }
 
   var input = document.createElement("input");
