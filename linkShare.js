@@ -4,6 +4,11 @@
   var shorthost = "";
 
   switch(hostname) {
+    case "www.aliexpress.com":
+      identifier = window.location.pathname.split("/")[2];
+      pathname = "/item/";
+      shorthost = "aliexpress.com"
+      break;
     case "www.amazon.com":
       identifier = window.location.pathname.split("/")[3];
       pathname = "/dp/";
