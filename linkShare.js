@@ -24,6 +24,13 @@
       pathname = "/listing/";
       shorthost = "etsy.com"
       break;
+    case "www.overstock.com":
+      urlParams = new URLSearchParams(window.location.search);
+      option = urlParams.get('option') ? "?option=" + urlParams.get('option')  : "";
+      identifier = window.location.pathname.split("/")[3] + "/product.html" + option;
+      pathname = "/";
+      shorthost = "overstock.com"
+      break;
     case "www.youtube.com":
       urlParams = new URLSearchParams(window.location.search);
       identifier = urlParams.get('v');
