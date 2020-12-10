@@ -14,6 +14,11 @@
       pathname = "/dp/";
       shorthost = "amazon.com"
       break;
+    case "www.barnesandnoble.com":
+      identifier = window.location.pathname.split("/")[3];
+      pathname = "/w/";
+      shorthost = "barnesandnoble.com"
+      break;
     case "www.bestbuy.com":
       identifier = window.location.pathname.split("/")[3];
       pathname = "/site/";
