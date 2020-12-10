@@ -1,6 +1,7 @@
 # Shortened Websites:
   - aliexpress.com
   - amazon.com
+  - barnesandnoble.com
   - bestbuy.com
   - ebay.com
   - etsy.com
