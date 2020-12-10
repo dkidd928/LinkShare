@@ -1,8 +1,10 @@
 # Shortened Websites:
   - aliexpress.com
   - amazon.com
+  - bestbuy.com
   - ebay.com
   - etsy.com
+  - newegg.com
   - overstock.com
   - youtube.com
   - zappos.com
