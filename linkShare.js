@@ -29,6 +29,11 @@
       pathname = "/listing/";
       shorthost = "etsy.com"
       break;
+     case "www.newegg.com":
+      identifier = window.location.pathname.split("/")[3];
+      pathname = "/p/";
+      shorthost = "newegg.com"
+      break;
     case "www.overstock.com":
       urlParams = new URLSearchParams(window.location.search);
       option = urlParams.get('option') ? "?option=" + urlParams.get('option')  : "";
