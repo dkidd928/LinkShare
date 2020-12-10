@@ -30,6 +30,10 @@
       pathname = "/"
       shorthost = "youtu.be";
       break;
+    default:
+      console.log("No short URL for ", hostname);
+      shorthost = location.href;
+      break;
   }
 
   var input = document.createElement("input");
