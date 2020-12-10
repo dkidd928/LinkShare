@@ -19,6 +19,11 @@
       pathname = "/itm/";
       shorthost = "ebay.com"
       break;
+    case "www.etsy.com":
+      identifier = window.location.pathname.split("/")[2];
+      pathname = "/listing/";
+      shorthost = "etsy.com"
+      break;
     case "www.youtube.com":
       urlParams = new URLSearchParams(window.location.search);
       identifier = urlParams.get('v');
