@@ -30,6 +30,12 @@
       pathname = "/"
       shorthost = "youtu.be";
       break;
+    case "www.zappos.com":
+      urlParams = new URLSearchParams(window.location.search);
+      identifier = window.location.pathname.split("/").slice(4).join('/');
+      pathname = "/product/"
+      shorthost = "zappos.com";
+      break;
     default:
       console.log("No short URL for ", hostname);
       shorthost = location.href;
