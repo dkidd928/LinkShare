@@ -3,6 +3,7 @@
   - amazon.com
   - ebay.com
   - etsy.com
+  - overstock.com
   - youtube.com
   - zappos.com
 
